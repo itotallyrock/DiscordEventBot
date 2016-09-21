@@ -1,0 +1,11 @@
+{
+    "application": {
+		"name": "",
+        "clientid": "",
+        "secret": "",
+        "user": {
+            "username": "",
+            "token": ""
+        }
+    }
+}
