@@ -1,9 +1,13 @@
 {
+	"commands": {
+		"prefix": ""
+	},
     "application": {
 		"name": "",
         "clientid": "",
         "secret": "",
         "user": {
+			"nickname": "",
             "username": "",
             "token": ""
         }
