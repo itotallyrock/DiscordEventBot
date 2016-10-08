@@ -1,15 +1,23 @@
 {
 	"commands": {
-		"prefix": ""
+		"prefix": "$"
 	},
-    "application": {
+	"application": {
 		"name": "",
         "clientid": "",
         "secret": "",
         "user": {
 			"nickname": "",
+			"status": "",
             "username": "",
             "token": ""
         }
-    }
+    },
+	"database": {
+		"user": "",
+	    "password": "",
+	    "host": "",
+	    "port": "",
+	    "db": ""
+	}
 }
