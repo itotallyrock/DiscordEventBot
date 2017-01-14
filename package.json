@@ -1,0 +1,47 @@
+{
+  "name": "discord-event-bot",
+  "version": "0.0.1",
+  "description": "A discord bot that allows creating events",
+  "main": "app/index.js",
+  "scripts": {
+    "test": "npm run eslint && npm run nsp && npm run mocha",
+    "eslint": "./node_modules/.bin/eslint .",
+    "nsp": "./node_modules/.bin/nsp check --warn-only",
+    "mocha": "./node_modules/.bin/mocha --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itotallyrock/DiscordEventBot.git"
+  },
+  "keywords": [
+    "discord",
+    "event",
+    "events",
+    "bot"
+  ],
+  "author": "itotallyrock",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/itotallyrock/DiscordEventBot/issues"
+  },
+  "homepage": "https://github.com/itotallyrock/DiscordEventBot#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.13.1",
+    "eslint-config-standard": "^6.2.1",
+    "eslint-plugin-promise": "^3.4.0",
+    "eslint-plugin-standard": "^2.0.1",
+    "mocha": "^3.0.2",
+    "nsp": "^2.6.1"
+  },
+  "dependencies": {
+    "ascii-table": "0.0.9",
+    "cli-table": "^0.3.1",
+    "convict": "^2.0.0",
+    "debug": "^2.6.0",
+    "discord.js": "^9.2.0",
+    "moment": "^2.15.1",
+    "moment-timezone": "^0.5.5",
+    "parse-duration": "^0.1.1"
+  }
+}
